@@ -1,0 +1,111 @@
+/* Utility */
+:root{
+    --black:#191919;
+    --lightblue:#3A6DE7;
+    --lightgrey:#BEBCBB;
+    --blue:#161C3B;
+    --red:#CD3D0F;
+    --white:#D9DADC;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.ps-bg-color-blue{
+    background-color: var(--blue);
+
+}
+.ps-bg-color-black{
+    background-color: var(--black);
+
+}
+.ps-bg-color-lightblue{
+    background-color: var(--lightblue);
+}
+.ps-color-lightblue{
+    color: var(--lightblue);
+}
+.ps-bg-color-red{
+    background-color: var(--red);
+
+}
+.ps-bg-color-white{
+    background-color: var(--white);
+
+}
+.ps-bg-color-lightgrey{
+    background-color: var(--lightgrey);
+
+}
+/* ----HEADER---- */
+.cot-logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 1em;
+}
+.cont-logo img{
+    width: 100%;
+}
+.fa-solid.fa-magnifying-glass{
+    font-size: 30px;
+}
+/* ----HERO---- */
+#hero{ 
+    width: 100%;
+}
+.hero-img{
+    background-image: url(../img/jumbo-bg.png);
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.text-hero{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.giochi1{
+    height: 150px;
+    width: 250px;
+}
+/* ---------MAIN ---------- */
+.play5{
+     width: 100%;
+     height: 100%; 
+} 
+
+.img-accessori{
+    width: 100%;
+    height: 100%;
+}
+.hero-main-img{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.taketwo{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+/* sezione3 */
+.game-ps{
+    width: 100%;
+}
+/* sezione4 */
+.ps4{
+    width: 100%;
+}
